@@ -1,5 +1,5 @@
 #Exercise 1 : Write a program that greets you by your own name.
-'''''
+
 name = input("Enter your name: ")
 
 if name == "Nare":
@@ -59,8 +59,6 @@ print("Average:", average_nums)
 # One lot is 13,3 grams.
 
 
-'''''
-"""""
 POUNDS_PER_TALENT = 20
 LOTS_PER_POUND = 32
 GRAMS_PER_LOT = 13.3
@@ -81,7 +79,7 @@ grams = float(total_grams % 1000)
 print(f"The equivalent mass is {kilograms} kilograms and {grams} grams.")
 
 
-"""""
+
 
 #Exercis 6
 import random
