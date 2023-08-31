@@ -1,9 +1,9 @@
 #Exercise 1 : Write a program that greets you by your own name.
-
+'''''
 name = input("Enter your name: ")
 
-if name == "Egzon":
-    print("Hello, Egzon!")
+if name == "Nare":
+    print("Hello, Nare!")
 
 #Exercise 1, with two Names
 name = input("Enter your name: ")
@@ -59,8 +59,8 @@ print("Average:", average_nums)
 # One lot is 13,3 grams.
 
 
-
-
+'''''
+"""""
 POUNDS_PER_TALENT = 20
 LOTS_PER_POUND = 32
 GRAMS_PER_LOT = 13.3
@@ -80,3 +80,14 @@ grams = float(total_grams % 1000)
 
 print(f"The equivalent mass is {kilograms} kilograms and {grams} grams.")
 
+
+"""""
+
+#Exercis 6
+import random
+
+three_randoms = ''.join([str(random.randint(0, 9)) for _ in range(3)])
+print(f"3-digit code: {three_randoms}")
+
+four_randoms =''.join([str(random.randint(1, 6)) for _ in range(4)])
+print(f"4-digit code: {four_randoms}")
