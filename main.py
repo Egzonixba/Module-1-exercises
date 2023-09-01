@@ -82,7 +82,7 @@ print(f"The equivalent mass is {kilograms} kilograms and {grams} grams.")
 
 
 """""
-
+'''''
 #Exercis 6
 import random
 
@@ -92,3 +92,109 @@ print(f"3-digit code: {three_randoms}")
 four_randoms =''.join([str(random.randint(1, 6)) for _ in range(4)])
 print(f"4-digit code: {four_randoms}")
 
+'''
+'''
+i = 1
+while i < 11:
+    print(i)
+    i = i + 1
+'''
+'''''
+greeting = int(input("How many greetings do you want to display"))
+first_greeting = 0
+while first_greeting < greeting:
+    print("good Morning")
+    first_greeting = first_greeting + 1
+    
+'''
+
+''''
+command = input("Enter command:")
+while command != "stop":
+    print("Executing command")
+    command = input("enter command")
+    print("execution is stopped")
+
+'''
+''''
+import random
+
+dice1= dice2= rolls= 0
+while (dice1 != 6 or dice2 !=6):
+    dice1 = random.randint(1,6)
+    dice2 = random.randint(1,6)
+    rolls +=1
+    print(f"The dices was rolled {rolls:d} times")
+    
+'''
+''''
+command = input("enter command: ")
+while command!="stop":
+    if command=="MAYDAY":
+        break
+        print ("exectuing command:")
+        command = input("Enter command: ")
+        print ("Execution stopped")
+'''
+''''
+import random
+hid_no = random.randint(1,100)
+player_guess = 0
+while not player_guess == hid_no:
+    player_guess = int(input("Guess a number"))
+    if player_guess > hid_no:
+        print("Too high")
+    elif player_guess < hid_no:
+        print("You are close but too low")
+    else: player_guess = 100
+    print("nice")
+'''
+import math
+
+''''
+while True:
+    number = int(input("Please type a number"))
+    if number <= 0:
+        break
+
+    factorial = 1
+    new = 1
+    while new <= number:
+            factorial *= new
+            new += 1
+    print(f"The factorail is {number} is {factorial}")
+print("thanks and bye")
+'''
+''''
+import math
+
+number = 1
+
+while number <= 1000:
+
+    if number % 3 == 0:
+        print(number)
+
+    # Increment the number
+    number += 1
+'''
+
+'''''
+# Conversions
+total_pounds = (talents * POUNDS_PER_TALENT) + pounds
+total_lots = (total_pounds * LOTS_PER_POUND)
+total_grams = total_lots * GRAMS_PER_LOT
+
+# Calculate kilograms and grams
+kilograms = float(total_grams // 1000)
+grams = float(total_grams % 1000)
+'''''
+
+Inches_percm = 3.4
+Centimeters_perinch = 0,35
+
+value = float(input("Enter distance you want to convert in inches"))
+
+conversion = value * Centimeters_perinch
+if conversion <=0:
+    print("negative value")
