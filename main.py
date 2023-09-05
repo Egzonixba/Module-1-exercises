@@ -189,7 +189,7 @@ total_grams = total_lots * GRAMS_PER_LOT
 kilograms = float(total_grams // 1000)
 grams = float(total_grams % 1000)
 '''''
-
+'''''
 Inches_percm = 3.4
 Centimeters_perinch = 0,35
 
@@ -198,3 +198,34 @@ value = float(input("Enter distance you want to convert in inches"))
 conversion = value * Centimeters_perinch
 if conversion <=0:
     print("negative value")
+'''
+''''
+scores = [85, 92, 78, 61, 45, 99, 72, 88]
+
+for score in scores:
+    if score >= 90:
+        print(f"Your grade {score} is A")
+    elif score >= 80 and score <= 89:
+        print(f"Your grade {score} is B")
+    elif score >= 70 and score <= 79:
+        print(f"Your grade {score} is C")
+    elif score >= 60 and score <= 79:
+        print(f"Your grade {score} is D")
+    else:
+        print(f"Your grade {score} is F")
+
+print("All done")
+
+'''
+
+while True:
+    value = int(input("Enter a number: "))
+
+    if value < 0:
+        print("Negative value entered. Terminating the program.")
+        break
+
+
+    print(f"You entered a positive value: {value}")
+
+
